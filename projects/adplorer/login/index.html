@@ -84,21 +84,51 @@
 		.set-size-8 *{ font-size: 2.6rem !important; }
 		.set-size-9 *{ font-size: 3rem !important; }
 
-.set-font-roboto{font-family:Roboto,Calibri,Arial,sans-serif}.set-calibri{font-family:Calibri,Arial,sans-serif}.login-panel{margin:0 25vw}.is-sr-only{display:none}.unset-floating{clear:both;float:initial}form .level{position:relative}form .level .icon{position:absolute;z-index:10;left:16px;top:12px}.is-radius{border-radius:40px!important}
+.set-font-roboto{font-family:Roboto,Calibri,Arial,sans-serif}.set-calibri{font-family:Calibri,Arial,sans-serif}.is-sr-only{display:none}.unset-floating{clear:both;float:initial}form .level{position:relative}form .level .icon{position:absolute;z-index:10;left:16px;top:12px}.is-radius{border-radius:40px!important}
+
+.login-panel{margin:0 23vw}
 .login-panel-img{
 	width: 220px;
 }
+	.login-panel .bg, .login-panel .layer{
+		position: absolute;
+		border-radius: 0px 10px 10px 0px;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+	}
+	.login-panel .layer{
+		opacity: 1;
+		background: linear-gradient(136deg, #ff4500, #e26638);
+	}
+	.login-panel-img{
+		width: 100%;
+		max-width: 240px;
+	}
+	.login-panel{margin:0 23vw}
 
-	@media only screen and (max-width:900px){
-	.login-panel{margin:0 16vw}
+
+.fancy-input{padding-left:15%!important}
+.fancy-input{box-sizing:border-box;width:100%;height:calc(3em + 2px);margin:0 0 1em;padding:6px;border:1px solid #ff4500!important;border-radius:3px;background:#fff;font-size:13px!important;resize:none;outline:none}.fancy-input:focus{border-color:#ff4500}.fancy-input:focus + label[data-after]:before{color:#333}.fancy-input:focus + label[data-after]:before,.fancy-input:valid + label[data-after]:before{transition-duration:.2s;transform:translate(0,-1.6em) scale(0.9,0.9);font-weight:300;font-weight:bold}.fancy-input:valid{border-color:#c0ecae}.fancy-input:valid + label[data-after]:before{font-weight:300;color:green}.fancy-input:invalid + label[data-after][data-before]:before{font-weight:300;content:attr(data-after)}.fancy-input + label[data-after]{font-size:13px;font-weight:300;display:block;pointer-events:none;line-height:1.25em;float:left;margin-top:calc(-3em - 2px);margin-bottom:calc((3em - 1em) + 2px)}.fancy-input + label[data-after]:before{content:attr(data-after);display:inline-block;margin:0 calc(0.5em + 2px);padding:0 2px;margin-left:2.8em;color:#9c9c9c;white-space:nowrap;transition:0.3s ease-in-out;background-image:linear-gradient(to bottom,#ffffff,#ffffff);background-size:100% 5px;background-repeat:no-repeat;background-position:left}
+@media only screen and (max-width:1024px){
+	.login-panel{margin:0 16vw !important}
 }
-	@media only screen and (max-width:767px){
-	.login-panel{margin:3em 12vw}
-	.login-panel-img{display: none;}
+@media only screen and (max-width:900px){
+	.fancy-input{padding-left:18%!important}
+	.login-panel{margin:0 16vw !important}
 }
-
-
-.fancy-input{padding-left:15%!important}.fancy-input{box-sizing:border-box;width:100%;height:calc(3em + 2px);margin:0 0 1em;padding:6px;border:1px solid #ff4500!important;border-radius:3px;background:#fff;font-size:13px!important;resize:none;outline:none}.fancy-input:focus{border-color:#ff4500}.fancy-input:focus + label[data-after]:before{color:#333}.fancy-input:focus + label[data-after]:before,.fancy-input:valid + label[data-after]:before{transition-duration:.2s;transform:translate(0,-1.6em) scale(0.9,0.9);font-weight:300;font-weight:bold}.fancy-input:valid{border-color:#c0ecae}.fancy-input:valid + label[data-after]:before{font-weight:300;color:green}.fancy-input:invalid + label[data-after][data-before]:before{font-weight:300;content:attr(data-after)}.fancy-input + label[data-after]{font-size:13px;font-weight:300;display:block;pointer-events:none;line-height:1.25em;float:left;margin-top:calc(-3em - 2px);margin-bottom:calc((3em - 1em) + 2px)}.fancy-input + label[data-after]:before{content:attr(data-after);display:inline-block;margin:0 calc(0.5em + 2px);padding:0 2px;margin-left:2.8em;color:#9c9c9c;white-space:nowrap;transition:0.3s ease-in-out;background-image:linear-gradient(to bottom,#ffffff,#ffffff);background-size:100% 5px;background-repeat:no-repeat;background-position:left}
+@media only screen and (max-width:768px){
+	.fancy-input{padding-left:10%!important}
+	.login-panel{margin:3em 8vw}
+	.login-panel-img, .login-panel-figure, .login-panel .bg{display: none;}
+}
+@media only screen and (max-width:425px){
+	.fancy-input{padding-left:22%!important}
+}
+@media only screen and (max-width:320px){
+	.fancy-input{padding-left:25%!important}
+}
 
 	</style>
 	<script>
@@ -124,52 +154,53 @@
 	<main class="grid article-full set-font-roboto">
 		<section class="set-hero-full onFull-image obj-table" style="background-image: url('https://i.ibb.co/6Xbjmj6/Background.jpg')">
 			<div class="obj-table-cell" style="padding-top: 90px;">
-				<div class="set-box login-panel row" style="padding: 4em 24px;box-shadow: 3px 3px 15px #3b3a40">
-					<div class="col-12">
-						<img style="width: 30vw;max-width: 220px;" src="https://www.adplorer.com/wp-content/uploads/2017/07/Adplorer-Color-Logo.svg" alt="Adplorer Logo">
-					</div>			
-					<div class="col is-center">										
-						<form action="" style="width: 100%" method="POST">
-							<h1 class="text-dark light" style="margin: 0;">Log in</h1>
+				<div class="set-box login-panel row" style="padding: 0;box-shadow: 3px 3px 15px #3b3a40">
+
+					<div class="col is-center text-dark " style="margin: 0;padding: 16px 24px;position: relative;">
+						<!--<div style="padding: 42px 20px;background: #fff;border-radius: 10px;width: 100%;box-shadow: 1px 1px 5px #333;position: relative;">
+						</div>
+						-->
+						<form action="" style="width: 90%" method="POST">
+							<h1 class="light text-dark set-size-5" style="margin: 0;line-height: 100%">
+								Log in
+							</h1>
+							<br>		
 							<div class="level col-12">
 								<i class="fas fa-envelope icon text-grey"></i>
-								<input name="loginEmail" class="fancy-input is-radius" type="text" required />
-								<label data-before="user@company" data-after="E-mail"></label>
+								<input name="txtLogin" class="fancy-input is-radius" type="text" required />
+								<label data-before="E-mail" data-after="E-mail"></label>
 							</div>
 							<div class="level col-12">
 								<i class="fas fa-lock icon text-grey"></i>
-								<input name="Passwort" autocomplete="new-password" class="fancy-input is-radius" type="password" required />
+								<input name="txtPassword" autocomplete="new-password" class="fancy-input is-radius" type="password" required />
 								<label data-before="Password" data-after="Password"></label>
 							</div>
 							<div class="col_12">
-								<a class="text-dark" href="https://my.adfinitely.com/PasswortVergessen.aspx">Forgot your password?</a>
+								<a class="text-dark" href="https://my.adfinitely.com/selfservice/PasswordRecovery.aspx">Forgot your password?</a>
 							</div>
-							<div class="col_12">
-								<button name="btnLogin" value="Login" type="submit" class="button is-radius" href="">
+							<div class="col_12 is-marginless">
+								<button name="btnLogin2" value="Login" type="submit" class="button is-radius" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnLogin2", "", true, "", "", false, false))">
 									Login
 								</button>
 							</div>
-						</form>
+						</form>						
 					</div>
-					<figure class="col">
-						<img class="login-panel-img" src="https://i.ibb.co/vXhpBgR/Illustration.png" alt="Your Local Marketing Solution">
-						<figcaption class="is-sr-only">
-							Your Local Marketing Solution
-						</figcaption>
-					</figure>
+					<div class="login-panel-figure" style="padding: 42px 20px;background: #fff;border-radius: 10px;width: 50%;box-shadow: 1px 1px 5px #333;position: relative;background: #ff4500">
+						<!-- BACKGROUND & LAYER -->
+							<div class="bg"></div>
+							<!--<div class="layer"></div>-->
+						<!--BACKGROUND & LAYER -->				
+						<figure class="col is-center" style="margin: 0;border-radius: 0px 10px 10px 0px;padding: 16px 24px;position: relative;" >						
+							<div class="row">
+								<div class="col-12">
+									<img class="login-panel-img" src="https://i.ibb.co/5hFFkFB/a-dplorer-resource-login.png" alt="Your Local Marketing Solution">
+								</div>					
+							</div>
+						</figure>
+					</div>
 				</div>
 			</div>
 		</section>
 	</main>
 </body>
 </html>
-<script>
-function topNavResponsive() {
-  var e = document.getElementById("Topnav");
-  if (e.className === "topnav") {
-    e.className += " responsive";
-  } else {
-    e.className = "topnav";
-  }
-}
-</script>
