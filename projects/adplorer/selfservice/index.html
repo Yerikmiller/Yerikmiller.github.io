@@ -49,7 +49,7 @@
 .text-white *{color:#fff!important}.set-top-nav{margin-top:63px}.set-hero-full{width:100vw;height:100vh}.set-box{padding:24px;background:#fff;border-radius:10px}.login-panel-img{width:220px}.set-radius{border-radius:20px}.unset-radius{border-radius:inherit}.set-primary{background:#ff4500}.set-warning{background:#ff4500}.set-danger{background:#ff4500}.set-success{background:#ff4500}.set-info{background:#ff4500}.set-size-1{font-size:1rem!important}.set-size-2{font-size:1.2rem!important}.set-size-3{font-size:1.4rem!important}.set-size-4{font-size:1.6rem!important}.set-size-5{font-size:1.8rem!important}.set-size-6{font-size:2rem!important}.set-size-7{font-size:2.4rem!important}.set-size-8{font-size:2.6rem!important}.set-size-9{font-size:3rem!important}.bg-white{background:#fff}
 		.cardAdplorer{
 			border-top: 32px solid #ff4500;
-			min-height: 250px;
+			min-height: 230px;
 		}
 		.cardAdplorer header{
 			position: relative;
@@ -66,21 +66,19 @@
 
 
 .fancy-input{padding-left:15%!important}
-.fancy-input[data-type="text"]{box-sizing:border-box;width:100%;height:calc(3em + 2px);margin:0 0 1em;padding:6px;border:1px solid #ff4500 !important;border-radius:3px;background:#fff;font-size:13px!important;resize:none;outline:none}
-.fancy-input[data-type="text"]:focus{border-color:#ff4500}
-.fancy-input[data-type="text"]:focus + label[data-after]:before{color:#333}
-.fancy-input[data-type="text"]:focus + label[data-after]:before,
-.fancy-input[data-type="text"]:valid + label[data-after]:before,
-.fancy-input[data-type="text"]:invalid + label[data-after]:before
+.fancy-input{box-sizing:border-box;width:100%;height:calc(3em + 2px);margin:0 0 1em;padding:6px;border:1px solid #ff4500 !important;border-radius:3px;background:#fff;font-size:13px!important;resize:none;outline:none}
+.fancy-input:focus{border-color:#ff4500}
+.fancy-input:focus + label[data-after]:before{color:#333}
+.fancy-input:focus + label[data-after]:before,
+.fancy-input:valid + label[data-after]:before
 {transition-duration:.2s;transform:translate(0,-1.6em) scale(0.9,0.9);font-weight:300;font-weight:bold}
-.fancy-input[data-type="text"]:valid{border-color:#c0ecae}
-.fancy-input[data-type="text"]:valid + label[data-after]:before{font-weight:300;color:green}
-.fancy-input[data-type="text"]:invalid + label[data-after][data-before]:before{
-	color: #ff4500;
+.fancy-input:valid{border-color:#c0ecae}
+.fancy-input:valid + label[data-after]:before{font-weight:300;color:green}
+.fancy-input:invalid + label[data-after][data-before]:before{
 	font-weight:300;content:attr(data-after)
 }
-.fancy-input[data-type="text"] + label[data-after]{font-size:13px;font-weight:300;display:block;pointer-events:none;line-height:1.25em;float:left;margin-top:calc(-3em - 2px);margin-bottom:calc((3em - 1em) + 2px)}
-.fancy-input[data-type="text"] + label[data-after]:before{content:attr(data-after);display:inline-block;margin:0 calc(0.5em + 2px);padding:0 2px;margin-left:2.8em;color:#9c9c9c;white-space:nowrap;transition:0.3s ease-in-out;background-image:linear-gradient(to bottom,#ffffff,#ffffff);background-size:100% 5px;background-repeat:no-repeat;background-position:left}
+.fancy-input + label[data-after]{font-size:13px;font-weight:300;display:block;pointer-events:none;line-height:1.25em;float:left;margin-top:calc(-3em - 2px);margin-bottom:calc((3em - 1em) + 2px)}
+.fancy-input + label[data-after]:before{content:attr(data-after);display:inline-block;margin:0 calc(0.5em + 2px);padding:0 2px;margin-left:2.8em;color:#9c9c9c;white-space:nowrap;transition:0.3s ease-in-out;background-image:linear-gradient(to bottom,#ffffff,#ffffff);background-size:100% 5px;background-repeat:no-repeat;background-position:left}
 
 	.login-panel .bg, .login-panel .layer{
 		position: absolute;
@@ -103,13 +101,16 @@
 	@media only screen and (max-width:1024px){
 		.cardAdplorer{
 			border-top: 32px solid #ff4500;
-			min-height: 290px;
+			min-height: 280px;
 		}
 	}
 	@media only screen and (max-width:900px){
 		.login-panel{margin:0 16vw}
 	}
 	@media only screen and (max-width:768px){
+		.cardAdplorer{
+			min-height: 230px;
+		}
 		.fancy-input{padding-left:20%!important}
 		.login-panel{margin:3em 8vw}
 		.login-panel-img, .login-panel-figure, .login-panel .bg{display: none;}
@@ -117,6 +118,11 @@
 	@media only screen and (max-width:900px) and (min-width:650px){
 		.col-6-mobile{
 			flex: 0 0 calc(50% - var(--grid-gutter));
+		}
+	}
+	@media only screen and (max-width:320px){
+		.cardAdplorer{
+			min-height: 270px;
 		}
 	}
 	</style>
@@ -141,13 +147,11 @@
 			</div>
 		</nav>
 	</header>
-
 	<main class="grid article-full set-font-roboto">
 		<div class="set-hero-full onFull-image obj-table" style="background-image: url('https://i.ibb.co/7ts9BxK/Background.jpg')">
 			<div class="obj-table-cell" style="padding-top: 90px;">
 				<section class="set-box login-panel row" style="padding: 0;box-shadow: 3px 3px 15px #3b3a40">
-					<div class="col is-center text-dark " style="margin: 0;padding: 16px 24px;position: relative;">				
-
+					<div class="col is-center text-dark " style="margin: 0;padding: 16px 24px;position: relative;">
 						<!--<div style="padding: 42px 20px;background: #fff;border-radius: 10px;width: 100%;box-shadow: 1px 1px 5px #333;position: relative;">
 						</div>
 						-->
@@ -160,13 +164,13 @@
 							</h4>				
 							<div class="level col-12">
 								<i class="fas fa-envelope icon text-grey"></i>
-								<input placeholder="E-mail" name="txtLogin" class="fancy-input is-radius" data-type="text" type="email" required />
-								<label data-before="Your email" data-after="Your email"></label>
+								<input name="txtLogin" class="fancy-input is-radius" type="text" required />
+								<label data-before="E-mail" data-after="E-mail"></label>
 							</div>
 							<div class="level col-12">
 								<i class="fas fa-lock icon text-grey"></i>
-								<input placeholder="Password" name="txtPassword" autocomplete="new-password" class="fancy-input is-radius" data-type="text" type="password" required />
-								<label data-before="Your password" data-after="Your password"></label>
+								<input name="txtPassword" autocomplete="new-password" class="fancy-input is-radius" type="password" required />
+								<label data-before="Password" data-after="Password"></label>
 							</div>
 							<div class="col_12">
 								<a class="text-dark" href="https://my.adfinitely.com/selfservice/PasswordRecovery.aspx">Forgot your password?</a>
@@ -212,26 +216,27 @@
 				<article class="col_10 offset-1 offset-1-r" style="margin-top: 60px;">
 					<div class="row">
 						<div class="col-12 col-6-mobile col-4-md">
-							<section class="card bg-white cardAdplorer">
-								<div>
+							<section class="card bg-white cardAdplorer" style="padding-bottom: 0">
 									<header>
 										<h3 class="light set-size-5 text-white">Effortless Marketing</h3>
 									</header>
-									<main class="set-size-3 text-dark">
+									<main class="text-dark" style="font-size: 1.36rem">
 										<p>
-											We help you target new customers and help them find your business online. Our products are designed to grow your sales and increase your bottom line by putting your brand in front of the right people at just the right time. Log in, get started, and see what is available for you!
+											We help you target new customers and help them find your business online. Our products are designed to grow your sales and increase your bottom line by putting your brand in front of the right people at just the right time.
+											<br>
+											<a class="text-primary" href="#">
+												Log in, get started, <br>and see what is available for you!
+											</a>
 										</p>
 									</main>
-								</div>
 							</section>
 						</div>
 						<div class="col-12 col-6-mobile col-4-md">
 							<section class="card bg-white cardAdplorer">
-								<div>
 									<header>
 										<h3 class="light set-size-5 text-white">Premier Partnerships</h3>
 									</header>
-									<main class="set-size-3 text-dark">
+									<main class="text-dark" style="font-size: 1.36rem">
 										<p>
 											Adfinitely is part of a global group of search advertising agencies. Benefit from professional knowledge and the leading edge technology of Adfinitely and its partners.
 										</p>
@@ -248,26 +253,23 @@
 											</figcaption>
 										</figure>
 									</main>
-								</div>
 							</section>
 						</div>
 						<div class="col-12 col-6-mobile col-4-md">
 							<section class="card bg-white cardAdplorer">
-								<div>
 									<header>
 										<h3 class="light set-size-5 text-white">Contact Us</h3>
 									</header>
-									<main class="set-size-3 text-dark">
+									<main class="text-dark" style="font-size: 1.36rem">
 										<div style="width: 40%;float: left;">
 											<img style="width: 100%;max-width: 160px;" src="https://i.ibb.co/N6nxCYL/Contact-Us.png" alt="marketing support">
 										</div>
 										<div style="width: 60%;float: left;">
 											<p>
-												<span class="text-primary set-size-6">Questions?</span> <br>
+												<span class="text-primary set-size-5">Questions?</span> <br>
 												Schedule a call with one of our experts, or submit a support ticket and we will follow up with you quickly. <br><br>
 												<a href="https://www.adplorer.com/contact-us/" class="button primary is-radius">Contact us</a>
 											</p>
-										</div>
 									</main>
 								</div>
 							</section>
