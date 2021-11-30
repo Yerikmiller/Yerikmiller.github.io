@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?tnjia1');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?tnjia1#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?tnjia1') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?tnjia1') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?tnjia1##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hvhnue');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hvhnue#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?hvhnue') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?hvhnue') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?hvhnue##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="plan-icon-"], [class*=" plan-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: never;
@@ -27,275 +27,275 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.plan-campaigns .path1 {
+.plan-icon-campaigns .path1 {
   &:before {
-    content: $plan-campaigns-path1;  
+    content: $plan-icon-campaigns-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0700;
   }
 }
-.plan-campaigns .path2 {
+.plan-icon-campaigns .path2 {
   &:before {
-    content: $plan-campaigns-path2;  
+    content: $plan-icon-campaigns-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-designs .path1 {
+.plan-icon-designs .path1 {
   &:before {
-    content: $plan-designs-path1;  
+    content: $plan-icon-designs-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0700;
   }
 }
-.plan-designs .path2 {
+.plan-icon-designs .path2 {
   &:before {
-    content: $plan-designs-path2;  
+    content: $plan-icon-designs-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path1 {
+.plan-icon-websites .path1 {
   &:before {
-    content: $plan-websites-path1;  
+    content: $plan-icon-websites-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0700;
   }
 }
-.plan-websites .path2 {
+.plan-icon-websites .path2 {
   &:before {
-    content: $plan-websites-path2;  
+    content: $plan-icon-websites-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path3 {
+.plan-icon-websites .path3 {
   &:before {
-    content: $plan-websites-path3;  
+    content: $plan-icon-websites-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path4 {
+.plan-icon-websites .path4 {
   &:before {
-    content: $plan-websites-path4;  
+    content: $plan-icon-websites-path4;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path5 {
+.plan-icon-websites .path5 {
   &:before {
-    content: $plan-websites-path5;  
+    content: $plan-icon-websites-path5;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path6 {
+.plan-icon-websites .path6 {
   &:before {
-    content: $plan-websites-path6;  
+    content: $plan-icon-websites-path6;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path7 {
+.plan-icon-websites .path7 {
   &:before {
-    content: $plan-websites-path7;  
+    content: $plan-icon-websites-path7;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path8 {
+.plan-icon-websites .path8 {
   &:before {
-    content: $plan-websites-path8;  
+    content: $plan-icon-websites-path8;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path9 {
+.plan-icon-websites .path9 {
   &:before {
-    content: $plan-websites-path9;  
+    content: $plan-icon-websites-path9;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path10 {
+.plan-icon-websites .path10 {
   &:before {
-    content: $plan-websites-path10;  
+    content: $plan-icon-websites-path10;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path11 {
+.plan-icon-websites .path11 {
   &:before {
-    content: $plan-websites-path11;  
+    content: $plan-icon-websites-path11;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-websites .path12 {
+.plan-icon-websites .path12 {
   &:before {
-    content: $plan-websites-path12;  
+    content: $plan-icon-websites-path12;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path1 {
+.plan-icon-startup .path1 {
   &:before {
-    content: $plan-startup-path1;  
+    content: $plan-icon-startup-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0600;
   }
 }
-.plan-startup .path2 {
+.plan-icon-startup .path2 {
   &:before {
-    content: $plan-startup-path2;  
+    content: $plan-icon-startup-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path3 {
+.plan-icon-startup .path3 {
   &:before {
-    content: $plan-startup-path3;  
+    content: $plan-icon-startup-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path4 {
+.plan-icon-startup .path4 {
   &:before {
-    content: $plan-startup-path4;  
+    content: $plan-icon-startup-path4;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path5 {
+.plan-icon-startup .path5 {
   &:before {
-    content: $plan-startup-path5;  
+    content: $plan-icon-startup-path5;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path6 {
+.plan-icon-startup .path6 {
   &:before {
-    content: $plan-startup-path6;  
+    content: $plan-icon-startup-path6;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path7 {
+.plan-icon-startup .path7 {
   &:before {
-    content: $plan-startup-path7;  
+    content: $plan-icon-startup-path7;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path8 {
+.plan-icon-startup .path8 {
   &:before {
-    content: $plan-startup-path8;  
+    content: $plan-icon-startup-path8;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path9 {
+.plan-icon-startup .path9 {
   &:before {
-    content: $plan-startup-path9;  
+    content: $plan-icon-startup-path9;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-startup .path10 {
+.plan-icon-startup .path10 {
   &:before {
-    content: $plan-startup-path10;  
+    content: $plan-icon-startup-path10;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-ecommerce .path1 {
+.plan-icon-ecommerce .path1 {
   &:before {
-    content: $plan-ecommerce-path1;  
+    content: $plan-icon-ecommerce-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0600;
   }
 }
-.plan-ecommerce .path2 {
+.plan-icon-ecommerce .path2 {
   &:before {
-    content: $plan-ecommerce-path2;  
+    content: $plan-icon-ecommerce-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-business .path1 {
+.plan-icon-business .path1 {
   &:before {
-    content: $plan-business-path1;  
+    content: $plan-icon-business-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0600;
   }
 }
-.plan-business .path2 {
+.plan-icon-business .path2 {
   &:before {
-    content: $plan-business-path2;  
+    content: $plan-icon-business-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-business .path3 {
+.plan-icon-business .path3 {
   &:before {
-    content: $plan-business-path3;  
+    content: $plan-icon-business-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-business .path4 {
+.plan-icon-business .path4 {
   &:before {
-    content: $plan-business-path4;  
+    content: $plan-icon-business-path4;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-funnel .path1 {
+.plan-icon-funnel .path1 {
   &:before {
-    content: $plan-funnel-path1;  
+    content: $plan-icon-funnel-path1;  
     color: rgb(0, 0, 0);  
     opacity: 0.0600;
   }
 }
-.plan-funnel .path2 {
+.plan-icon-funnel .path2 {
   &:before {
-    content: $plan-funnel-path2;  
+    content: $plan-icon-funnel-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-funnel .path3 {
+.plan-icon-funnel .path3 {
   &:before {
-    content: $plan-funnel-path3;  
+    content: $plan-icon-funnel-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-funnel .path4 {
+.plan-icon-funnel .path4 {
   &:before {
-    content: $plan-funnel-path4;  
+    content: $plan-icon-funnel-path4;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-funnel .path5 {
+.plan-icon-funnel .path5 {
   &:before {
-    content: $plan-funnel-path5;  
+    content: $plan-icon-funnel-path5;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-funnel .path6 {
+.plan-icon-funnel .path6 {
   &:before {
-    content: $plan-funnel-path6;  
+    content: $plan-icon-funnel-path6;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.plan-funnel .path7 {
+.plan-icon-funnel .path7 {
   &:before {
-    content: $plan-funnel-path7;  
+    content: $plan-icon-funnel-path7;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
