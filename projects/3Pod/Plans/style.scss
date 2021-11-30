@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q8i6ky');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q8i6ky#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?q8i6ky') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?q8i6ky') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?q8i6ky##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8ol2m2');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8ol2m2#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8ol2m2') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8ol2m2') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8ol2m2##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,55 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.plan-icon-business .path1 {
+  &:before {
+    content: $plan-icon-business-path1;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.0600;
+  }
+}
+.plan-icon-business .path2 {
+  &:before {
+    content: $plan-icon-business-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.plan-icon-funnel .path1 {
+  &:before {
+    content: $plan-icon-funnel-path1;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.0600;
+  }
+}
+.plan-icon-funnel .path2 {
+  &:before {
+    content: $plan-icon-funnel-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.plan-icon-funnel .path3 {
+  &:before {
+    content: $plan-icon-funnel-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.plan-icon-funnel .path4 {
+  &:before {
+    content: $plan-icon-funnel-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.plan-icon-funnel .path5 {
+  &:before {
+    content: $plan-icon-funnel-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
 .plan-icon-entrepreneur .path1 {
   &:before {
     content: $plan-icon-entrepreneur-path1;  
@@ -289,83 +338,6 @@
 .plan-icon-ecommerce .path2 {
   &:before {
     content: $plan-icon-ecommerce-path2;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-business .path1 {
-  &:before {
-    content: $plan-icon-business-path1;  
-    color: rgb(0, 0, 0);  
-    opacity: 0.0600;
-  }
-}
-.plan-icon-business .path2 {
-  &:before {
-    content: $plan-icon-business-path2;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-business .path3 {
-  &:before {
-    content: $plan-icon-business-path3;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-business .path4 {
-  &:before {
-    content: $plan-icon-business-path4;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-funnel .path1 {
-  &:before {
-    content: $plan-icon-funnel-path1;  
-    color: rgb(0, 0, 0);  
-    opacity: 0.0600;
-  }
-}
-.plan-icon-funnel .path2 {
-  &:before {
-    content: $plan-icon-funnel-path2;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-funnel .path3 {
-  &:before {
-    content: $plan-icon-funnel-path3;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-funnel .path4 {
-  &:before {
-    content: $plan-icon-funnel-path4;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-funnel .path5 {
-  &:before {
-    content: $plan-icon-funnel-path5;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-funnel .path6 {
-  &:before {
-    content: $plan-icon-funnel-path6;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.plan-icon-funnel .path7 {
-  &:before {
-    content: $plan-icon-funnel-path7;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
