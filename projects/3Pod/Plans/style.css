@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'plans';
-  src:  url('fonts/plans.eot?hvhnue');
-  src:  url('fonts/plans.eot?hvhnue#iefix') format('embedded-opentype'),
-    url('fonts/plans.ttf?hvhnue') format('truetype'),
-    url('fonts/plans.woff?hvhnue') format('woff'),
-    url('fonts/plans.svg?hvhnue#plans') format('svg');
+  src:  url('fonts/plans.eot?q8i6ky');
+  src:  url('fonts/plans.eot?q8i6ky#iefix') format('embedded-opentype'),
+    url('fonts/plans.ttf?q8i6ky') format('truetype'),
+    url('fonts/plans.woff?q8i6ky') format('woff'),
+    url('fonts/plans.svg?q8i6ky#plans') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,56 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.plan-icon-entrepreneur .path1:before {
+  content: "\e927";
+  color: rgb(0, 0, 0);
+  opacity: 0.0600;
+}
+.plan-icon-entrepreneur .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path3:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path4:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path5:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path6:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path7:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path8:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path9:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.plan-icon-entrepreneur .path10:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
 .plan-icon-campaigns .path1:before {
   content: "\e900";
   color: rgb(0, 0, 0);
